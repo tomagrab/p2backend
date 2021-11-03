@@ -25,14 +25,11 @@ public class Customer {
 	private int id;
 	private String name;
 	private String email;
-	private String mobile;
+	private long mobile;
 	private String password;
 	@Column(name = "is_active")
 	private boolean isActive;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

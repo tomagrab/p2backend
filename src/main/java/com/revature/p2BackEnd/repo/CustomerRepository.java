@@ -9,5 +9,5 @@ import com.revature.p2BackEnd.model.Customer;
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {
 	public List<Customer> findByEmail(String email);
 
-	public List<Customer> findByMobile(String mobile);
+	public List<Customer> findByMobile(long mobile);
 }
